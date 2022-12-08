@@ -95,19 +95,23 @@ def main(file="example0.ini"):
 
 if __name__ == "__main__":
 
-    for x in range(0,1):
+    #range 0 to 5 now
+    for x in range(0,5):
         main(file="example0.ini")
         x +=1
         
         
-#unquote these
-    ##for y in range(0,1):
-     ##   main(file="example1.ini")
-     ##   y +=1
+
+    for y in range(0,5):
+        main(file="example1.ini")
+        y +=1
       
         
-   ## for z in range(0,1):
-    ##    main(file="example2.ini")
-    ##    z+=1
+    for z in range(0,5):
+        main(file="example2.ini")
+        z+=1
        
+        
+       #100 women who have possibility of living up to 100 years, running 1 iteration per company (3 companies)
+       # eventually increase women or iterations
         
